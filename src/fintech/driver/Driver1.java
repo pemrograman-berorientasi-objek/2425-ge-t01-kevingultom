@@ -16,7 +16,11 @@ public class Driver1 {
             String owner = scan.nextLine();
             String account_name = scan.nextLine();
             Account account = new Account(owner, account_name);
+
+            
             scan.close();
+
+            
             
     
             System.out.println(account.toString());
